@@ -2,67 +2,55 @@
 
 ## Overview
 
-Student Registration Website is a beginner HTML project designed to simulate a university student registration system.
+Student Registration Website is a responsive multi-page web application built using **HTML5 and CSS3**. The project allows users to register student information, view student records, and navigate through different sections of the website.
 
-The website allows users to:
+The project focuses on **semantic HTML, responsive design, form validation, and structured user interfaces**.
 
-* View the homepage and project information
-* Register students using a structured form
-* View student records in tabular format
-
-This project focuses on practicing **HTML semantics, forms, tables, navigation, accessibility, and multi-page website structure**.
-
-
+---
 
 ## Features
 
-### Home Page (`index.html`)
+### Home Page
 
 * Introduction to the registration system
-* Brief explanation of website purpose
+* About section explaining website purpose
 * Quick navigation links
 
-### Student Registration Page (`register.html`)
+### Student Registration Form
 
-Student registration form containing:
+* Personal Information section
+* Contact Information section
+* Age validation
+* Gender selection
+* University details
+* Address section
+* Additional comments field
+* Required field validation
 
-* Personal Information
-* Contact Information
-* Age
-* Gender Selection
-* University Information
-* Address
-* Additional Comments
+### Student Records Page
 
-### Student Records Page (`records.html`)
+* Table displaying student information
+* Student statistics summary
+* Organized record structure
 
-Displays:
+### Responsive Design
 
-* Student ID
-* Student Name
-* Department
-* Semester
-* Summary statistics
+* Mobile-first layout
+* Sidebar navigation for larger screens
+* Flexible content spacing
 
-
+---
 
 ## Technologies Used
 
 * HTML5
-* Semantic HTML Elements
+* CSS3
+* Media Queries
+* CSS Transitions
+* CSS Pseudo-classes
+* Responsive Web Design Principles
 
-Examples:
-
-* `<header>`
-* `<nav>`
-* `<main>`
-* `<section>`
-* `<form>`
-* `<fieldset>`
-* `<table>`
-* `<footer>`
-
-
+---
 
 ## Project Structure
 
@@ -72,43 +60,73 @@ student-registration-website/
 ├── index.html
 ├── register.html
 ├── records.html
+├── styles.css
 └── README.md
 ```
 
+---
 
+## UI Features
 
-## How to Run
+* Fixed sidebar navigation on desktop
+* Gradient backgrounds
+* Hover animations
+* Form validation feedback
+* Responsive layout adjustments
+* Accessible labels and semantic sections
 
-1. Download or clone the project.
-2. Open the project folder in VS Code.
-3. Open `index.html`.
-4. Right-click → **Open with Live Server**
-   (or open directly in your browser).
+---
 
-## Learning Objectives
+## Validation Features
+
+* Required input fields
+* Email validation
+* Number range restrictions
+* Invalid input indicators
+* Contextual validation messages
+
+---
+
+## Responsive Behavior
+
+### Mobile (<768px)
+
+* Header positioned at top
+* Stacked navigation
+
+### Desktop (768px+)
+
+* Sidebar navigation
+* Main content aligned beside sidebar
+* Larger button sizing
+
+---
+
+## Learning Outcomes
 
 This project helped practice:
 
-* Semantic HTML
-* Navigation between pages
-* Form creation and validation
-* Tables and data organization
-* Accessibility basics
-* Website structure
+* Semantic HTML structure
+* Multi-page website development
+* Responsive layouts using media queries
+* CSS transitions and hover effects
+* Form accessibility concepts
+* Input validation techniques
+* Table organization and layout
 
+---
 
 ## Future Improvements
 
-Possible upgrades:
-
-* Add CSS styling
-* Make the layout responsive
-* Store records using JavaScript
+* Add JavaScript for dynamic student records
+* Store student data using Local Storage
 * Add search and filter functionality
-* Connect to a backend database
-* Add login functionality
+* Add edit/delete student records
+* Improve accessibility support
+* Add dark mode
 
+---
 
-Created as an HTML practice project for learning web development.
+## Author
 
-© 2026 Student Registration Website
+Frontend practice project created using HTML and CSS.
