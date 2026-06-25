@@ -4,13 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width", initial-scale="1.0">
         <title>Student Registration Website</title>
+        <link rel="stylesheet" href="./styles.css">
         <meta name="description" content="A Student registeration website that is used to keep track of registered students and lets you register students">
     </head>
     <body>
         <header>
             <h1>Student Registeration</h1>
             <nav>
-            <a href="./index.html">home</a>| <a href="./register.html">Register Student</a>| <a href="./records.html">Student Record</a>
+            <a href="./index.html">Home</a> <a href="./register.html">Register Student</a> <a href="./records.html">Student Record</a>
             </nav>
         </header>
       <main>
@@ -28,21 +29,28 @@
             <br>
             <label for="cnic">Your CNIC:<span aria-hidden="*">*</span></label>
             <input required type="text" id="cnic" name="cnic" placeholder="xxxxx-xxxxxxx-x">
+            <p class="message">Input is invalid</p>
+            <br>
+
         </fieldset>
         <fieldset id="contact">
             <legend>Contact Information</legend>
             <label for="phone">Phone Number:<span aria-hidden="*">*</span></label>
             <input required id="phone" name="phone" type="text" placeholder="xxxx-xxxxxxx">
+            <p class="message">Input is invalid</p>
             <br>
+
             <label for="mail">Email:<span aria-hidden="*">*</span></label>
             <input required type="email" id="mail" name="mail" placeholder="example@email.com">
-            <br>
+            <p class="message">Input is invalid</p>
+<br>
         </fieldset>
         <fieldset id="age">
             <legend>Age</legend>
             <label for="age">Age:</label>
             <input type="number" id="age" name="age" min="16" max="28">
-            <br>
+            <p class="message">Input is invalid age must be between 16 and 28</p>
+
         </fieldset>
         <fieldset id="gender">
             <legend>Gender:*</legend>
